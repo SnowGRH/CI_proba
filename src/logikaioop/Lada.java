@@ -33,7 +33,7 @@ public class Lada {
         this.kincs = kincs;
     }
 
-    public String Valasz(String valasz) {
+    public String Valasz(int valasz) {
         return "A válasz jó! \n Válasz:"+valasz;
     }
 
