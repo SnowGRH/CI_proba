@@ -15,7 +15,7 @@ public class LogikaiOOP {
         System.out.println(new Lada().toString());
         System.out.println("Melyik ");
         String be = sc.nextLine();
-        System.out.println("A válasz jó | rossz");
+        System.out.println(new Lada().Valasz(be));
     }
 
 }

@@ -2,13 +2,12 @@ package logikaioop;
 
 public class Lada {
 
-
     private String allitas, anyag;
     private boolean kincs;
 
     public Lada() {
         this.allitas = "Allitas 1";
-    }        
+    }
 
     public String getAllitas() {
         return allitas;
@@ -33,10 +32,14 @@ public class Lada {
     public void setKincs(boolean kincs) {
         this.kincs = kincs;
     }
+
+    public String Valasz(String valasz) {
+        return "A válasz jó! \n Válasz:"+valasz;
+    }
+
     @Override
     public String toString() {
         return allitas;
-    }    
-
+    }
 
 }
