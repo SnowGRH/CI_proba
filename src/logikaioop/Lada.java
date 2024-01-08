@@ -7,7 +7,7 @@ public class Lada {
 
     public Lada() {
         this.allitas = "Allitas 1";
-    }        
+    }
 
     public String getAllitas() {
         return allitas;
@@ -33,9 +33,13 @@ public class Lada {
         this.kincs = kincs;
     }
 
+    public String Valasz(int valasz) {
+        return "A válasz jó! \n Válasz:"+valasz;
+    }
+
     @Override
     public String toString() {
         return allitas;
-    }    
+    }
 
 }
