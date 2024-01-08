@@ -5,9 +5,9 @@ public class Lada {
     private String allitas, anyag;
     private boolean kincs;
 
-    public Lada() {
-        this.allitas = "Allitas 1";
-    }        
+    public Lada(String allitas) {
+        this.allitas = allitas;
+    }   
 
     public String getAllitas() {
         return allitas;
