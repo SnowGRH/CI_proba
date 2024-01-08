@@ -33,7 +33,6 @@ public class Lada {
     public void setKincs(boolean kincs) {
         this.kincs = kincs;
     }
-
     @Override
     public String toString() {
         return allitas;
