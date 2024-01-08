@@ -15,7 +15,7 @@ public class Ladak {
         beker();
     }
 
-    private int beker() {
+    public int beker() {
         System.out.println("Melyik ");
         int be = sc.nextInt();
         return be;
