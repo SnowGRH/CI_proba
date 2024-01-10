@@ -5,8 +5,10 @@ public class Lada {
     private String allitas, anyag;
     private boolean kincs;
 
-    public Lada(String allitas) {
+    public Lada(String anyag,String allitas,boolean kincs) {
+        this.anyag = anyag;
         this.allitas = allitas;
+        this.kincs = kincs;
     }   
     
     public String getAllitas() {
@@ -33,13 +35,9 @@ public class Lada {
         this.kincs = kincs;
     }
 
-    public String Valasz() {
-        return "A válasz jó!";
-    }
-
     @Override
     public String toString() {
-        return allitas;
+        return anyag+":"+allitas;
     }
 
 }
