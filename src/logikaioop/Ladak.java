@@ -1,6 +1,7 @@
 package logikaioop;
 
 import java.util.Scanner;
+import logikaioop.Lada;
 
 public class Ladak {
 
@@ -10,7 +11,6 @@ public class Ladak {
     public Ladak(Lada L1, Lada L2, Lada L3) {
         this.ladak = new Lada[]{L1,L2,L3};
         kiir();
-
     }
 
     public int beker() {
